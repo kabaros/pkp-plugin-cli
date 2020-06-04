@@ -2,7 +2,7 @@
  * @file src/utils/checkSumFile.js
  *
  * Copyright (c) 2020 Simon Fraser University
- * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+ * Distributed under the GNU GPL v3. For full terms see the file LICENSE.
  *
  *
  * @brief Helper function to calculate the md5 check sum of a file
@@ -13,7 +13,7 @@
 const crypto = require('crypto')
 const fs = require('fs')
 
-module.exports = function checksumFile (path, hashName = 'md5') {
+module.exports = function checksumFile(path, hashName = 'md5') {
   return new Promise((resolve, reject) => {
     const hash = crypto.createHash(hashName)
     const stream = fs.createReadStream(path)

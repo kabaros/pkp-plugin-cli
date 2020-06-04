@@ -2,7 +2,7 @@
  * @file src/validate-new-release/extractReleaseDataFromDiff.js
  *
  * Copyright (c) 2020 Simon Fraser University
- * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+ * Distributed under the GNU GPL v3. For full terms see the file LICENSE.
  *
  * @param {string} lines the diffed lines showing what changed in a plugins.xml file
  *
