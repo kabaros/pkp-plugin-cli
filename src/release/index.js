@@ -6,9 +6,9 @@
  *
  * @brief Entry point for release command
  *
- * This command (pkp-plugin release) is to be implemented
+ * This entry point only parses arguments. Orchestrating the work is handled by publishRelease module.
+ * 
  */
-
 const { warn, info } = require('../utils/log')
 const publishRelease = require('./publishRelease')
 

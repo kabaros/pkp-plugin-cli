@@ -8,7 +8,6 @@
  *
  * It parses the arguments passed to the command line tool and decides which module to invoke
  */
-
 const minimist = require('minimist')
 const shell = require('shelljs')
 
